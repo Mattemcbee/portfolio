@@ -20,12 +20,12 @@ const AboutPage = () => {
           className=" text-center"
         >
           <h1>Connect with me </h1>
-          <h1 className=" fontBasic">Github:<a href={"https://github.com/Mattemcbee"} target="_blank"
+          <h1 style={{fontSize:'5vw'}} className=" fontBasic">Github:<a href={"https://github.com/Mattemcbee"} target="_blank"
             rel="noreferrer">https://github.com/Mattemcbee</a></h1>
-          <h1 className=" fontBasic">LinkedIn:<a href={"https://www.linkedin.com/in/matthew-mcbee/"} target="_blank"
+          <h1 style={{fontSize:'5vw'}}  className=" fontBasic">LinkedIn:<a href={"https://www.linkedin.com/in/matthew-mcbee/"} target="_blank"
             rel="noreferrer"> https://www.linkedin.com/in/matthew-mcbee/</a></h1>
 
-          <h3>Resume:<a href={samplePDF1} target="_blank"
+          <h3 style={{fontSize:'5vw'}} >Resume:<a href={samplePDF1} target="_blank"
             rel="noreferrer">
             Resume
           </a> <br></br></h3>

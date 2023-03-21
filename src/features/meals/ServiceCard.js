@@ -5,22 +5,21 @@ const ServiceCard = ({ meal }) => {
     const { id, image, name, time, level, calories, icon, disc } = meal;
 
     return (
-        <Card className=' ' style={{ height: '150px', marginBottom: '10px' }} >
+        <Card className='serviceCard' style={{ height: '150px', marginBottom: '20px', borderRadius: '10px', border: '20px', borderColor: '#EAC7C7' }} >
 
-            <CardBody className='cardStyle m-auto'>
-                <Container fluid className=' mt-auto'>
-                    <Row className=' mt-auto'>
-                        <Col xs='2' className='' style={{ height: '100%', margin: 'auto' }}>
-                            <i className={icon} />
-                        </Col>
-                        <Col className=' mt-auto' xs='10'>
-                            <CardTitle>{name}</CardTitle>
+            <CardTitle className='cardStyle m-0'>
+                <Row className=' m-auto'>
+                    <Col xs='2' className='m-auto textCenter' style={{ height: '100%', margin: 'none' }}>
+                        <i className={icon} style={{ color: 'black' }} />
+                    </Col>
+                    <Col className='text-center  m-auto' xs='10'>
+                        <CardTitle>{name}</CardTitle>
 
-                            <CardText className='NoDecorationCardText m-auto'> {disc} </CardText>
-                        </Col>
-                    </Row>
-                </Container>
-
+                    </Col>
+                </Row>
+            </CardTitle>
+            <CardBody className='cardStyleDark' >
+                <CardText className='NoDecorationCardText m-auto'> {disc} </CardText>
             </CardBody>
         </Card>
     );

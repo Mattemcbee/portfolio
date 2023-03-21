@@ -32,8 +32,10 @@ const HomePage = () => {
           className=" text-center"
         >
           <h1 className="cardStyle mx-0">Projects</h1>
-          <ProjectList />
-          <h1 className=" fontBasic">Github:<a href={"https://github.com/Mattemcbee"} target="_blank"
+          <Col xs={{ size: 10, offset: 1 }}>
+            <ProjectList />
+          </Col>
+          {/* <h1 className=" fontBasic">Github:<a href={"https://github.com/Mattemcbee"} target="_blank"
             rel="noreferrer">https://github.com/Mattemcbee</a></h1>
           <h1 className=" fontBasic">LinkedIn:<a href={"https://www.linkedin.com/in/matthew-mcbee/"} target="_blank"
             rel="noreferrer"> https://www.linkedin.com/in/matthew-mcbee/</a></h1>
@@ -41,7 +43,7 @@ const HomePage = () => {
           <h3>Resume:<a href={samplePDF1} target="_blank"
             rel="noreferrer">
             Resume
-          </a> <br></br></h3>
+          </a> <br></br></h3> */}
 
 
 

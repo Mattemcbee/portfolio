@@ -9,16 +9,16 @@ const ProjectListing = ({ meal }) => {
 
     return (
 
-        <Col xs={{ size: '10', offset: '1' }} md={{ size: '8', offset: '0' }} className='mt-10'>
-            <Card className='cardStyle NoDecorationCardText'>
+        <Col xs={{ size: '7', offset: '1' }} md={{ size: '6', offset: '0' }} className='mt-10'>
+            <Card className='cardStyle NoDecorationCardText' style={{borderRadius:'10px'}}>
                 <CardBody className='cardStyle NoDecorationCardText text-center'>
                     <Container>
                         <Row>
-                            <h3>About the {name} project</h3>
+                            <h3 style={{color:'black'}}>About the {name} project</h3>
                         </Row>
                     </Container>
                 </CardBody>
-                <CardBody className='cardRecipeStyle '>
+                <CardBody style={{color:'black'}} className='cardRecipeStyle '>
                     {disc}
                 </CardBody>
 

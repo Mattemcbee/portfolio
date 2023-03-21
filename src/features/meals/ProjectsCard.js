@@ -6,24 +6,16 @@ const ProjectCard = ({ meal }) => {
 
     return (
         <Link className='NoDecorationCardText' to={`${id}`}>
-            
-            <Card className='cardStyle cardBottomSpace'>
 
-                <CardBody className='cardStyle'>
-                    <Container>
-                        <Row>
-                            <Col xs='2' className='m-auto'>
-                                <CardImg src={image} />
-                            </Col>
-                            <Col xs='10'>
-                            <CardTitle>{name}</CardTitle>
-
-                                <CardText className='NoDecorationCardText'> {disc} </CardText>
-                            </Col>
-
-                        </Row>
-                    </Container>
-
+            <Card className='hoverEff' style={{ height: '300px', marginBottom: '20px', borderRadius: '0 0 10px 10px' }}>
+                <CardTitle className='cardStyle m-0'>{name}</CardTitle>
+                <CardBody className='cardStyleDark '>
+                    <Row className=''>
+                            <CardImg  style={{width:'100%', borderRadius:'8px'}} src={image} />
+                    </Row>
+                    <Row>
+                            <CardText className='NoDecorationCardText m-0'> {disc} </CardText>
+                    </Row>
                 </CardBody>
             </Card>
         </Link>

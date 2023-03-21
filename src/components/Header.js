@@ -28,35 +28,36 @@ const Header = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <Navbar>
-      <NavbarBrand className="ms-5" href="/" style={{width:'100%', height:'50px'}}>
-        <img src={backDrop} alt="nucamp logo" className="float-start" />
-        <h1 className="mt-1">Matt McBee</h1>
-      </NavbarBrand>
+    <Navbar >
+      {/* <NavbarBrand className="ms-5" href="/" style={{width:'100%', height:'50px'}}>
+        <img src={backDrop} alt="nucamp logo" className="float-start" /> */}
+        {/* <h1 className="mt-1">Matt McBee</h1> */}
+      {/* </NavbarBrand> */}
       {/* <LoginForm /> */}
 
-      <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+      <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}   style={{color:'#EAC7C7', backgroundColor:'black', borderRadius: "10px", borderColor:'#EAC7C7', border: '5px'}} ><i className="fa fa-bars fa-md dark" /></NavbarToggler>
+      
       <Collapse isOpen={menuOpen} navbar>
         <Nav className="ms-auto iconColor " navbar  >
           
           <NavItem>
-            <NavLink className="nav-link iconColor" to="/">
-              <i className="fa fa-home fa-lg iconColor" /> Home
+            <NavLink className="nav-link iconColor" style={{color:'#EAC7C7'}} to="/">
+              <i className="fa fa-home fa-lg fontBasic" /> Home
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link iconColor" to="/about">
-              <i className="fa fa-user fa-lg iconColor" /> About
+            <NavLink className="nav-link iconColor" style={{color:'#EAC7C7'}} to="/about">
+              <i className="fa fa-user fa-lg fontBasic" /> About
             </NavLink>
           </NavItem>
           <NavItem >
-          <span className='nav-link iconColor'
-                onClick={() => setModalOpen(true)}><i className="fa fa-phone fa-lg iconColor" /> Contact</span>
-            <Modal isOpen={modalOpen}>
-                <ModalHeader toggle={(() => setModalOpen(false))} >
+          <span className='nav-link iconColor' style={{color:'#EAC7C7'}}
+                onClick={() => setModalOpen(true)}><i className="fa fa-phone fa-lg fontBasic"  /> Contact</span>
+            <Modal isOpen={modalOpen} className='modalBack'>
+                <ModalHeader toggle={(() => setModalOpen(false))}className='modalBack' >
                     Let's Talk
                 </ModalHeader>
-                <ModalBody>
+                <ModalBody className='modalBack' style={{backgroundColor:'#EAC7C7'}}>
                     <Formik >
                         <Form>
                             

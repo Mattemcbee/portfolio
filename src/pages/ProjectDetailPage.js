@@ -12,7 +12,7 @@ const ProjectDetailPage = () => {
     const meal = selectMealById(mealId);
 
     return(
-        <Container fluid className='homeBackground'>
+        <Container fluid style={{height:'100%'}} className='homeBackground'>
             <Header />
             <Row>
                 <h1>{meal.name}</h1>

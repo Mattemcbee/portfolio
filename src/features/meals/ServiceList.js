@@ -9,11 +9,11 @@ import { SKILLS } from "../../app/shared/SKILLS";
 const ServiceList = () => {
   
   return (
-    <Row className="ms-auto">
+    <Row className="m-auto text-center">
       {SKILLS.map((meal) => {
         return (
           <>
-            <Col md={{ size: 4, offset: 1 }} className="" key={meal.id}>
+            <Col md='6' xs='12' className="center" key={meal.id}>
               <ServiceCard meal={meal} />
             </Col>
           </>

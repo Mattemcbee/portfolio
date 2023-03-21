@@ -8,7 +8,7 @@ const ProjectDetails= ({meal}) => {
     const { image, image2, disc, imageDisc, imageDisc2, name, time, level, recipeOut } = meal;
 
     return ( 
-        <Col md={{size:'4', offset:'0'}} xs={{size:'10', offset:'1'}}>
+        <Col md={{size:'6', offset:'0'}} xs={{size:'10', offset:'1'}}>
             <Card className='cardStyle '>
             <Carousel>
                     <Carousel.Item >

@@ -17,10 +17,30 @@ h3,
 }
 
 .cardStyle {
-    background-color: #B7B7A4;
+    background-color: #EAC7C7;
     /* outline: 1px solid black; */
     text-decoration: none;
     color: black;
+    /* margin-left: 0; */
+}
+.hoverEff:hover {
+    opacity: 80%;
+    /* outline: 1px solid black; */
+
+    /* margin-left: 0; */
+}
+.cardStyleDark {
+    background-color: black;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #EAC7C7;
+    border-radius: 0 0 10px 10px;
+    /* margin-left: 0; */
+}
+
+.cardStyleTitle {
+    
+    border-radius: 0 0 10px 10px;
     /* margin-left: 0; */
 }
 
@@ -36,10 +56,11 @@ h3,
 }
 .cardRecipeStyle {
     background-color: #fefae0;
-    text-decoration: none;
-    color: #606c38;
+    /* text-decoration: none; */
+    color: black;
 
 }
+
 .selectorStyle {
     background-color: #DDA15E;
     text-decoration: none;
@@ -80,6 +101,20 @@ h3,
 
 }
 
+.serviceCard {
+    border: 2px solid #fefae0;
+    /* background-color: #a1cebe; */
+    border-radius: 4px;
+    width: 100%;
+    max-height: 100%;
+    /* margin: 0; */
+    padding:0;
+    vertical-align: middle;
+
+    /* color: #fefae0; */
+
+
+}
 h2 {
     font-size: 22vw;
 }
@@ -96,6 +131,7 @@ h4 {
 
 .NoDecorationCardText {
     text-decoration: none;
+    color:#EAC7C7;
 
 }
 .unstyleLink {
@@ -115,16 +151,30 @@ h1 {
     right: 0;
 
 }
+.center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
 .button1 {
     background-color: none;
     color: black;
     border: 2px solid black;
   } 
 .fontBasic {
-    color: black;
+    color: #EAC7C7;
+}
+.modalBack {
+    /* background-color: #FFE8D6; */
+    background-color: #EAC7C7;
+
 }
 .homeBackground {
-    background-color: #FFE8D6;
+    /* background-color: #FFE8D6; */
+    background-color: black;
+
 }
 
 .homeBackground2 {
