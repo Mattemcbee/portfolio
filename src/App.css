@@ -29,6 +29,7 @@ h3,
 
     /* margin-left: 0; */
 }
+
 .cardStyleDark {
     background-color: black;
     text-decoration: none;
@@ -165,6 +166,15 @@ h1 {
   } 
 .fontBasic {
     color: #EAC7C7;
+    font-size: 8vh;
+}
+.fontBasic2 {
+    color: #EAC7C7;
+    font-size: 3vh;
+}
+.fontBasic3 {
+    color: #EAC7C7;
+    font-size: 4vh;
 }
 .modalBack {
     /* background-color: #FFE8D6; */

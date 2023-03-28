@@ -29,14 +29,14 @@ const Header = () => {
 
   return (
     <Navbar >
-      {/* <NavbarBrand className="ms-5" href="/" style={{width:'100%', height:'50px'}}>
-        <img src={backDrop} alt="nucamp logo" className="float-start" /> */}
-        {/* <h1 className="mt-1">Matt McBee</h1> */}
-      {/* </NavbarBrand> */}
+      
       {/* <LoginForm /> */}
 
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}   style={{color:'#EAC7C7', backgroundColor:'black', borderRadius: "10px", borderColor:'#EAC7C7', border: '5px'}} ><i className="fa fa-bars fa-md dark" /></NavbarToggler>
-      
+      <NavbarBrand className="ms-5 float-start" href="/" >
+        {/* <img src={backDrop} alt="nucamp logo" className="float-start" /> */}
+        <h1 className="mt-1"style={{color:'#EAC7C7', fontSize:'4vh' }}>Matt McBee</h1>
+      </NavbarBrand>
       <Collapse isOpen={menuOpen} navbar>
         <Nav className="ms-auto iconColor " navbar  >
           
@@ -53,9 +53,9 @@ const Header = () => {
           <NavItem >
           <span className='nav-link iconColor' style={{color:'#EAC7C7'}}
                 onClick={() => setModalOpen(true)}><i className="fa fa-phone fa-lg fontBasic"  /> Contact</span>
-            <Modal isOpen={modalOpen} className='modalBack'>
-                <ModalHeader toggle={(() => setModalOpen(false))}className='modalBack' >
-                    Let's Talk
+            <Modal className='modalBack' isOpen={modalOpen} >
+                <ModalHeader toggle={(() => setModalOpen(false))} className='modalBack' >
+                    Let's Talk 
                 </ModalHeader>
                 <ModalBody className='modalBack' style={{backgroundColor:'#EAC7C7'}}>
                     <Formik >

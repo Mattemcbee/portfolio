@@ -1,7 +1,6 @@
 import { Card, CardImg, CardText, CardBody, Col, Row, Container } from 'reactstrap';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import Carousel from 'react-bootstrap/Carousel';
 
 const ProjectListing = ({ meal }) => {
 

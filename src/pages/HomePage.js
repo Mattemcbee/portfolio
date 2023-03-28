@@ -20,7 +20,7 @@ const HomePage = () => {
           </Container>
         </Col>
         <Col
-          sm="9"
+          sm="10"
           className=" m-auto"
         >
           <h1 className="cardStyle mx-0">My Services</h1>
@@ -28,11 +28,16 @@ const HomePage = () => {
 
         </Col>
         <Col
-          sm="size: 12"
+          xs="12"
           className=" text-center"
         >
-          <h1 className="cardStyle mx-0">Projects</h1>
-          <Col xs={{ size: 10, offset: 1 }}>
+          <Row>
+            <Col xs="10" className="mx-auto">
+            <h1 className="cardStyle mx-0">Projects</h1>
+          </Col>
+          </Row>
+          
+          <Col xs={{ size: 9}} className='mx-auto'>
             <ProjectList />
           </Col>
           {/* <h1 className=" fontBasic">Github:<a href={"https://github.com/Mattemcbee"} target="_blank"
