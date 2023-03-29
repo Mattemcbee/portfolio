@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -7,7 +9,7 @@ h2,
 h3,
 .card-body>.card-title {
     font-family: 'Helvetica';
-    
+
 
 }
 
@@ -23,6 +25,7 @@ h3,
     color: black;
     /* margin-left: 0; */
 }
+
 .hoverEff:hover {
     opacity: 80%;
     /* outline: 1px solid black; */
@@ -38,15 +41,25 @@ h3,
     border-radius: 0 0 10px 10px;
     /* margin-left: 0; */
 }
+.aboutBorder {
+    /* background-color: black; */
+    text-decoration: none;
+    color: #EAC7C7;
+    border: 3px solid #EAC7C7;
+    border-radius: 10px;
+    margin: 20px;
+    width:20%;
+    /* margin-left: 0; */
+}
 
 .cardStyleTitle {
-    
+
     border-radius: 0 0 10px 10px;
     /* margin-left: 0; */
 }
 
 .iconColor {
-    color:#fefae0;
+    color: #fefae0;
 }
 
 .cardBottomSpace {
@@ -55,6 +68,7 @@ h3,
 
 
 }
+
 .cardRecipeStyle {
     background-color: #fefae0;
     /* text-decoration: none; */
@@ -72,7 +86,7 @@ h3,
 }
 
 .formTextStyle {
- 
+
     color: #fefae0;
     vertical-align: middle;
 
@@ -109,16 +123,18 @@ h3,
     width: 100%;
     max-height: 100%;
     /* margin: 0; */
-    padding:0;
+    padding: 0;
     vertical-align: middle;
 
     /* color: #fefae0; */
 
 
 }
+
 h2 {
     font-size: 22vw;
 }
+
 h4 {
     font-size: 2vw;
 }
@@ -132,58 +148,92 @@ h4 {
 
 .NoDecorationCardText {
     text-decoration: none;
-    color:#EAC7C7;
+    color: #EAC7C7;
 
 }
+
 .unstyleLink {
     color: #fefae0;
     text-decoration: none;
-  }
+}
+
 .inline {
     display: inline-block;
-  }
+}
+
 h1 {
     color: #fefae0;
     text-align: center;
-    margin:0;
+    margin: 0;
     font-size: 200px;
     width: 100%;
     left: 0;
     right: 0;
 
 }
-.center{
+
+.center {
     text-align: center;
     display: block;
     justify-content: center;
     align-items: center;
     margin: auto;
-  }
+}
+
 .button1 {
     background-color: none;
     color: black;
     border: 2px solid black;
-  } 
+}
+
 .fontBasic {
     color: #EAC7C7;
     font-size: 8vh;
 }
+
+.sidenav {
+    height: 80%;
+    width: 5px;
+    color:#EAC7C7;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #232323; */
+    transition: .5s ease;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 180px;
+    overflow: hidden;
+    margin-bottom: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .fontBasic2 {
     color: #EAC7C7;
     font-size: 3vh;
 }
+
 .fontBasic3 {
     color: #EAC7C7;
     font-size: 4vh;
 }
+
 .modalBack {
     /* background-color: #FFE8D6; */
     background-color: #EAC7C7;
 
 }
+
 .homeBackground {
     /* background-color: #FFE8D6; */
     background-color: black;
+    height: 100%;
+    width: 100%;
+
 
 }
 
@@ -192,6 +242,12 @@ h1 {
     background-image: url("../src/app/assets/img/mountain1.jpg");
     height: 100px;
 }
+.homeBackground3 {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
 .recipeBackground {
     background-color: #fefae0;
 }

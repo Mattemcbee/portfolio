@@ -6,6 +6,7 @@ import LoginForm from "../components/LoginForm";
 import ProjectList from '../features/meals/ProjectList'
 import samplePDF1 from "../app/assets/MattMcBeeCV.pdf";
 import Header from "../components/Header";
+import SideNav from "../features/meals/Sidebar";
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
   return (
     <Container fluid className="homeBackground">
       <Header />
+    <SideNav/>
       <Row>
         <Col sm="12">
           <Container className="">

@@ -9,6 +9,7 @@ import Header from '../components/Header';
 import { useState } from "react";
 import { useSpring, animated } from 'react-spring'
 import { useEffect } from 'react';
+import SideNav from '../features/meals/Sidebar';
 
 const ProjectDetailPage = () => {
     const { mealId } = useParams();
@@ -36,15 +37,12 @@ const ProjectDetailPage = () => {
       setToggle(true);
     }, []);
     return(
-        <Container fluid style={{height:'100%'}} className='homeBackground'>
+        <Container fluid  className='homeBackground3'>
             <Header />
             <Row>
                 <h1>{meal.name}</h1>
-                {/* <animated.div style={animatedStyle} > */}
                 <ProjectDetails meal={meal} />
-                {/* </animated.div> */}
                 <ProjectListing meal={meal} />
-                {/* <RecipeListFormat mealId={mealId}/> */}
               
             </Row>
         </Container>

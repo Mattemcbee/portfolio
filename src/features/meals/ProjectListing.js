@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const ProjectListing = ({ meal }) => {
 
-    const { image, image2, name, time, level, recipeOut, calories, ingredients, disc } = meal;
+    const { image, image2, name, git, time, level, recipeOut, calories, ingredients, disc } = meal;
 
     return (
 
@@ -17,8 +17,9 @@ const ProjectListing = ({ meal }) => {
                         </Row>
                     </Container>
                 </CardBody>
-                <CardBody style={{color:'black'}} className='cardRecipeStyle '>
+                <CardBody style={{color:'black'}} className='cardRecipeStyle text-center'>
                     {disc}
+                    <p className='hoverEff'>{git}</p>
                 </CardBody>
 
             </Card>
