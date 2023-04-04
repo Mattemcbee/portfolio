@@ -11,6 +11,7 @@ import MealsDetail from './features/meals/ProjectDetails';
 import MealDetailPage from './pages/ProjectDetailPage';
 import AddRecipePage from './pages/AddRecipePage';
 import AboutPage from './pages/AboutPage';
+import LandingPage from './pages/LandingPage';
 
 
 function App() {
@@ -18,14 +19,16 @@ function App() {
         <div className='App'>
             {/* <Header /> */}
             <Routes>
-                <Route path='/' element={<HomePage />} />
+                <Route path='/HomePage' element={<HomePage />} />
+                <Route path='/' element={<LandingPage />} />
+
                 <Route path='addrecipe' element={<AddRecipePage />} />
                 <Route path='about' element={<AboutPage />} />
 
                 {/* <Route path='directory' element={<MealsDirectoryPage />} />  */}
                 {/* <Route path='meal' element={<MealDetailPage />} /> */}
                 <Route
-                    path='/:mealId'
+                    path='/Homepage/:mealId'
                     element={<MealDetailPage />}
                 />
             </Routes>

@@ -5,7 +5,10 @@ const ServiceCard = ({ meal }) => {
     const { id, image, name, time, level, calories, icon, disc } = meal;
 
     return (
-        <Card className='serviceCard' style={{ height: '150px', marginBottom: '20px', borderRadius: '10px', border: '20px', borderColor: '#EAC7C7' }} >
+        <Card className='serviceCard' style={{
+            height: '150px', marginBottom: '20px',
+            borderRadius: '10px', border: '20px', borderColor: '#EAC7C7'
+        }} >
 
             <CardTitle className='cardStyle m-0'>
                 <Row className=' m-auto'>

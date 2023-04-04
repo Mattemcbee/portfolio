@@ -8,16 +8,16 @@ const ProjectListing = ({ meal }) => {
 
     return (
 
-        <Col xs={{ size: '7', offset: '1' }} md={{ size: '6', offset: '0' }} className='mt-10'>
-            <Card className='cardStyle NoDecorationCardText' style={{borderRadius:'10px'}}>
-                <CardBody className='cardStyle NoDecorationCardText text-center'>
-                    <Container>
+        <Col xs={{ size: '10', offset: '1' }} md={{ size: '6', offset: '0' }} className='mt-100'>
+            <Card className='cardStyle NoDecorationCardText' style={{borderRadius:'10px', marginTop:'10px'}}>
+                <CardBody className='cardStyle NoDecorationCardText text-center' style={{borderRadius:'10px 10px 0 0'}}>
+                    {/* <Container> */}
                         <Row>
                             <h3 style={{color:'black'}}>About the {name} project</h3>
                         </Row>
-                    </Container>
+                    {/* </Container> */}
                 </CardBody>
-                <CardBody style={{color:'black'}} className='cardRecipeStyle text-center'>
+                <CardBody style={{color:'black', borderRadius:'10px'}} className='cardRecipeStyle text-center'>
                     {disc}
                     <p className='hoverEff'>{git}</p>
                 </CardBody>

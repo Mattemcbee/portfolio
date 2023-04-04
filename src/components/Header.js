@@ -17,7 +17,7 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 
 import { NavLink } from "react-router-dom";
 import hatLogo from "../app/assets/img/hatLogo.jpg";
-import backDrop from "../app/assets/img/mountain1.jpg";
+import backDrop from "../app/assets/img/logoM.jpg";
 
 import LoginForm from "./LoginForm";
 import UserLoginForm from "../features/user/UserLoginForm";
@@ -34,8 +34,8 @@ const Header = () => {
 
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}   style={{color:'#EAC7C7', backgroundColor:'black', borderRadius: "10px", borderColor:'#EAC7C7', border: '5px'}} ><i className="fa fa-bars fa-md dark" /></NavbarToggler>
       <NavbarBrand className="ms-5 float-start" href="/" >
-        {/* <img src={backDrop} alt="nucamp logo" className="float-start" /> */}
-        <h1 className="mt-1 hoverEff"style={{color:'#EAC7C7', fontSize:'4vh', fontFamily: '' }}>Matt McBee</h1>
+        <img src={backDrop} alt="nucamp logo" className="float-start" style={{width:'50%'}} />
+        {/* <h1 className="mt-1 hoverEff"style={{color:'#EAC7C7', fontSize:'4vh', fontFamily: '' }}>Matt McBee</h1> */}
       </NavbarBrand>
       <Collapse isOpen={menuOpen} navbar>
         <Nav className="ms-auto iconColor " navbar  >

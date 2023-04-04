@@ -7,7 +7,9 @@ const ProjectCard = ({ meal }) => {
     return (
         <Link className='NoDecorationCardText' to={`${id}`}>
 
-            <Card className='hoverEff' style={{ height: '300px', marginBottom: '20px', borderRadius: '0 0 10px 10px' }}>
+            <Card className='hoverEff' 
+            style={{ marginBottom: '20px', borderRadius: '0 0 10px 10px' }}
+            >
                 <CardTitle className='cardStyle m-0'>{name}</CardTitle>
                 <CardBody className='cardStyleDark '>
                     <Row className=''>

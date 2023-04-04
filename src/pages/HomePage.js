@@ -15,7 +15,17 @@ const HomePage = () => {
     <Container fluid className="homeBackground">
       <Header />
     <SideNav/>
+    <Row>
+            {/* <Col xs="10" className="mx-auto">
+            <h1 className="cardStyle mx-0">Projects</h1>
+          </Col> */}
+          </Row>
+          
+          <Col xs={{ size: 9}} className='mx-auto'>
+            <ProjectList />
+          </Col>
       <Row>
+        
         <Col sm="12">
           <Container className="">
             <AboutMe />
@@ -33,15 +43,7 @@ const HomePage = () => {
           xs="12"
           className=" text-center"
         >
-          <Row>
-            <Col xs="10" className="mx-auto">
-            <h1 className="cardStyle mx-0">Projects</h1>
-          </Col>
-          </Row>
           
-          <Col xs={{ size: 9}} className='mx-auto'>
-            <ProjectList />
-          </Col>
           {/* <h1 className=" fontBasic">Github:<a href={"https://github.com/Mattemcbee"} target="_blank"
             rel="noreferrer">https://github.com/Mattemcbee</a></h1>
           <h1 className=" fontBasic">LinkedIn:<a href={"https://www.linkedin.com/in/matthew-mcbee/"} target="_blank"

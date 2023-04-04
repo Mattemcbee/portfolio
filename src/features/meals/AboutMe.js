@@ -72,21 +72,19 @@ const AboutMe = () => {
           <Col sm="10" className="m-auto">
             <animated.div style={animatedStyle}>
 
-              <h2 className='fontBasic2'>My name is </h2>
-              <h2 className='fontBasic ' style={{ fontFamily: '' }}> Matt McBee</h2>
-              <img class="center"
-                style={{ borderRadius: "50% 50% 0 0", backgroundColor: "red", width: '30%', justifyContent: 'center' }} top src={head} />
-            </animated.div>
-            <animated.div style={animatedStyle2}>
-
-
-
+              {/* <h2 className='fontBasic2'>My name is </h2> */}
+              <h2 className='fontBasic ' style={{ fontFamily: '' }}> About Me</h2>
               <Row>
+                <Col xs='4'>
+              <img class="center"
+                style={{ borderRadius: "50% 50% 0 0", backgroundColor: "red", width: '80%', justifyContent: 'center' }} top src={head} />
+            <Row>
                 <Col className="d-none d-md-block">
                   <Button className="hoverEff" style={{
                     borderRadius: "10px", borderColor: '#EAC7C7',
-                    backgroundColor: "black", color: '#EAC7C7', textDecoration: 'none', width: '100px',
-                    height: '50px', justifyContent: 'center', margin: '5px'
+                    backgroundColor: "black", color: '#EAC7C7',
+
+                      margin: '5px', padding: '10px 20px'
                   }}
                     href={samplePDF1} target="_blank"
                     rel="noreferrer">
@@ -95,8 +93,8 @@ const AboutMe = () => {
                   <Button className="hoverEff" style={{
                     borderRadius: "10px",
                     borderColor: '#EAC7C7', backgroundColor: "#EAC7C7", color: 'black',
-                    textDecoration: 'none', width: '100px', height: '50px', justifyContent: 'center',
-                    margin: '5px'
+                    margin: '5px', padding: '10px 20px'
+
                   }} onClick={() => setModalOpen(true)}>
                     Let's Talk
                   </Button>
@@ -121,9 +119,62 @@ const AboutMe = () => {
                   </Button>
                 </Col>
               </Row>
+            
+            </Col>
+            <Col xs='8'>
+            <h4 className='fontBasic3'>I am a fullstack developer based in Richmond, VA, and I am passionate and dedicated to my work. With 3 years of professional work experince and 1 year of code experince I have aquired the skills necessary to build great and premium websites.</h4>
+
+            </Col>
+            </Row>
+            </animated.div>
+            <animated.div style={animatedStyle2}>
+
+
+
+              {/* <Row>
+                <Col className="d-none d-md-block">
+                  <Button className="hoverEff" style={{
+                    borderRadius: "10px", borderColor: '#EAC7C7',
+                    backgroundColor: "black", color: '#EAC7C7',
+
+                      margin: '5px', padding: '10px 20px'
+                  }}
+                    href={samplePDF1} target="_blank"
+                    rel="noreferrer">
+                    CV
+                  </Button>
+                  <Button className="hoverEff" style={{
+                    borderRadius: "10px",
+                    borderColor: '#EAC7C7', backgroundColor: "#EAC7C7", color: 'black',
+                    margin: '5px', padding: '10px 20px'
+
+                  }} onClick={() => setModalOpen(true)}>
+                    Let's Talk
+                  </Button>
+                </Col>
+
+                <Col className="d-md-none">
+                  <Button className="hoverEff " style={{
+                    borderRadius: "10px", borderColor: '#EAC7C7',
+                    backgroundColor: "black", color: '#EAC7C7', textDecoration: 'none',
+                    width: '100px', height: '50px', justifyContent: 'center', margin: '5px'
+                  }}
+                    href={samplePDF1} target="_blank"
+                    rel="noreferrer">
+                    <p className="center " style={{ fontSize: '4vw' }}>CV</p>
+                  </Button>
+                  <Button className="hoverEff" style={{
+                    borderRadius: "10px", borderColor: '#EAC7C7',
+                    backgroundColor: "#EAC7C7", color: 'black', textDecoration: 'none', width: '100px',
+                    height: '50px', justifyContent: 'center', margin: '5px'
+                  }} onClick={() => setModalOpen(true)}>
+                    <p className="center" style={{ fontSize: '4vw' }}>Let's Talk</p>
+                  </Button>
+                </Col>
+              </Row> */}
             </animated.div>
 
-            <h4 className='fontBasic3'>I am a fullstack developer based in Richmond, VA, and I am passionate and dedicated to my work. With 3 years of professional work experince and 1 year of code experince I have aquired the skills necessary to build great and premium websites.</h4>
+            {/* <h4 className='fontBasic3'>I am a fullstack developer based in Richmond, VA, and I am passionate and dedicated to my work. With 3 years of professional work experince and 1 year of code experince I have aquired the skills necessary to build great and premium websites.</h4> */}
             <Modal className='modalBack' isOpen={modalOpen} >
               <ModalHeader toggle={(() => setModalOpen(false))} className='modalBack' >
                 Let's Talk

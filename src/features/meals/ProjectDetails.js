@@ -32,11 +32,11 @@ const ProjectDetails= ({meal}) => {
     }, []);
     return ( 
 
-        <Col md={{size:'6', offset:'0'}} xs={{size:'10', offset:'1'}}>
-                    <animated.div style={animatedStyle2} >
+        <Col xs={{size:'10', offset:'1'}} md={{size:'6', offset:'0'}} style={{borderRadius:'10px '}}>
+                    <animated.div style={animatedStyle2} style={{borderRadius:'10px 10px 0 0'}}>
 
-            <Card className='cardStyle '>
-            <Carousel>
+            <Card className='cardStyle ' style={{borderRadius:'10px '}}>
+            <Carousel style={{borderRadius:'10px'}}>
                     <Carousel.Item >
                         <img
                             className="d-block w-100"
