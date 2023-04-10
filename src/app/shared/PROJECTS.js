@@ -27,12 +27,15 @@ export const PROJECTS = [
         id: 0,
         name: 'Bootstrap',
         disc: 'Use  of HTML, JS, CSS to build a landing page for a local band to display music, merch and upcoming shows',
+        technologies:'HTML, CSS, JavaScript',
         image: disposed3,
         // imageDisc:'disposed',
         image2: disposed2,
         // imageDisc2:'disposed3'
         git: <a href='https://github.com/Mattemcbee/DisposedKingsWebpage'>
-            <i className='fa fa-github-square fa-2x' style={{ color: 'black' }} /></a>
+            <i className='fa fa-github-square fa-2x' style={{ color: 'black' }} /></a>,
+        website: <a className='unstyleLink' style={{color:'#fefae0'}} href='https://github.com/Mattemcbee/DisposedKingsWebpage'>
+        Visit Website</a>
 
     },
     {
@@ -42,6 +45,7 @@ export const PROJECTS = [
         image: recipe,
         // imageDisc:'recipe',
         image2: recipe2,
+        technologies:'React, CSS, JavaScript',
         // imageDisc2:'recipe2'
         git: <a href='https://github.com/Mattemcbee/cooking-website'>
             <i className='fa fa-github-square fa-2x' style={{ color: 'black' }} /></a>
@@ -49,6 +53,8 @@ export const PROJECTS = [
     {
         id: 2,
         name: 'React',
+        technologies:'HTML, CSS, JavaScript',
+
         disc: 'A webpage promoting a campsite and allowing resevations of campsites',
         image: reactcamp,
         // imageDisc:'reactcamp',
@@ -60,6 +66,8 @@ export const PROJECTS = [
     {
         id: 3,
         name: 'React Native',
+        technologies:'HTML, CSS, JavaScript',
+
         disc: 'An app used to help discover meals you can make using ingredients in your home',
         image: recapp3,
         // imageDisc:'recapp3',
@@ -71,6 +79,8 @@ export const PROJECTS = [
     {
         id: 4,
         name: 'React Native',
+        technologies:'HTML, CSS, JavaScript',
+
         disc: 'An app used to help discover and reserve campsites',
         image: campapp4,
         // imageDisc:'recapp3',
@@ -82,6 +92,8 @@ export const PROJECTS = [
     {
         id: 5,
         name: 'NodeJS',
+        technologies:'HTML, CSS, JavaScript',
+
         disc: 'A database that can be used to store and share information',
         image: database3,
         // imageDisc:'database1',

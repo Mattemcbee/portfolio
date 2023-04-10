@@ -122,7 +122,7 @@ const AboutMe = () => {
             
             </Col>
             <Col xs='8'>
-            <h4 className='fontBasic3'>I am a fullstack developer based in Richmond, VA, and I am passionate and dedicated to my work. With 3 years of professional work experince and 1 year of code experince I have aquired the skills necessary to build great and premium websites.</h4>
+            <h4 className='fontBasic3'>I am an aspiring fullstack developer based in Richmond, VA, and I am passionate and dedicated to my work. With 3 years of professional work experince and 1 year of code experince I have aquired the skills necessary to build great and premium websites.</h4>
 
             </Col>
             </Row>

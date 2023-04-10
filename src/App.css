@@ -25,6 +25,14 @@ h3,
     color: black;
     /* margin-left: 0; */
 }
+.cardStyleProject {
+    background-color: black;
+    /* outline: 1px solid black; */
+    text-decoration: none;
+    color: #EAC7C7;
+    /* margin-left: 0; */
+}
+
 
 .hoverEff:hover {
     opacity: 80%;
@@ -179,11 +187,27 @@ h1 {
     align-items: center;
     margin: auto;
 }
+.center2 {
+    text-align: center;
+    /* display: block; */
+    /* justify-content: center; */
+    vertical-align: center;
+    margin: 0;
+}
 
 .button1 {
     background-color: none;
     color: black;
     border: 2px solid black;
+}
+
+.button2 {
+    background-color: black;
+    color: #EAC7C7;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 2px 8px 2px 8px ;
 }
 
 .fontBasic {
