@@ -47,7 +47,7 @@ const ProjectDetailsPreview= ({meal}) => {
                             
                         />
                         <Carousel.Caption>
-                            <p>{imageDisc}</p>
+                            <p className='discBack'>{imageDisc}</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -57,7 +57,7 @@ const ProjectDetailsPreview= ({meal}) => {
                             alt="Image Two"
                         />
                         <Carousel.Caption>
-                            <p>{imageDisc2}</p>
+                            <p className='discBack'>{imageDisc2}</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>            </Card>

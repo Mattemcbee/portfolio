@@ -18,7 +18,7 @@ const ProjectCard = ({ meal }) => {
                             <ProjectDetailsPreview meal={meal} style={{height:'10%'}}/>
                     </Row>
                     <Row>
-                            <CardText className='NoDecorationCardText m-0'> {disc} </CardText>
+                            <CardText className='NoDecorationCardText m-0' > {disc} </CardText>
                     </Row>
                     <Row>
                             <CardText className='NoDecorationCardText m-0'> Technologies: {technologies} </CardText>

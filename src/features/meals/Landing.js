@@ -89,10 +89,9 @@ const Landing = () => {
                   <Button className="hoverEff" style={{
                     borderRadius: "10px", borderColor: '#EAC7C7',
                     backgroundColor: "black", color: '#EAC7C7', 
-                    // textDecoration: 'none', width: '200px', height: '50px', justifyContent: 'center',
                      margin: '5px'
                   }}
-                  href="/HomePage" 
+                  href="/HomePage"
                     >
                     View Porfolio
                   </Button>

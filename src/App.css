@@ -76,6 +76,11 @@ h3,
 
 
 }
+.discBack {
+    background-color:black;
+    opacity:80%;
+    width:auto;
+}
 
 .cardRecipeStyle {
     background-color: #fefae0;

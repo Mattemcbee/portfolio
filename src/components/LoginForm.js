@@ -8,7 +8,7 @@ const LoginForm = () => {
     return (
         <>
             {/* <span style={{backgroundColor:'none', color:'black', border:'2px rounded solid black', borderRadius: '10px', textDecoration:'none', maxHeight:'100%' }}  outline onClick={() => setModalOpen(true)} ><i className="fa fa-sign-in fa-lg"  /> Contact Me </span> */}
-            <Button style={{ backgroundColor: '#FFE8D6', border: '2px solid black' }} className='fontBasic'
+            <Button style={{ backgroundColor: '#FFE8D6', border: '2px solid black', borderRadius:'10px' }} className='fontBasic'
                 onClick={() => setModalOpen(true)}>Contact <i className="fa fa-sign-in fa-lg" /></Button>
             <Modal isOpen={modalOpen}>
                 <ModalHeader toggle={(() => setModalOpen(false))} >

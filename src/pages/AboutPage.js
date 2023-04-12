@@ -11,17 +11,18 @@ import { useState } from "react";
 import { useSpring, animated } from 'react-spring'
 import { useEffect } from 'react';
 import SideNav from "../features/meals/Sidebar";
+import BottomBar from "../features/meals/BottomBar";
 
 const AboutPage = () => {
 
   return (
-    <Container fluid className="homeBackground3 " >
+    <Container fluid className="homeBackground3  " >
       <Header />
-      <SideNav />
+      {/* <SideNav /> */}
       <Row>
         <Col
           sm="size: 12"
-          className=" text-center"
+          className=" text-center "
         >
           <h1>Connect with me </h1>
           <h2>Find out more about me here</h2>
@@ -55,6 +56,7 @@ const AboutPage = () => {
           </Button>
         </Col>
       </Row>
+      <BottomBar className='center'/>
     </Container>
   );
 };

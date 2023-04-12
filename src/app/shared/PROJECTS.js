@@ -25,80 +25,80 @@ import { Link } from 'react-router-dom'
 export const PROJECTS = [
     {
         id: 0,
-        name: 'Bootstrap',
-        disc: 'Use  of HTML, JS, CSS to build a landing page for a local band to display music, merch and upcoming shows',
+        name: 'Disposed Kings',
+        disc: 'Disposed Kings is a local band, I made this page to help them engage with their fans and keep them in the loop about upcoming shows, new music and merch.',
         technologies:'HTML, CSS, JavaScript',
         image: disposed3,
-        // imageDisc:'disposed',
+        imageDisc:'Links to band members social medias',
         image2: disposed2,
-        // imageDisc2:'disposed3'
+        imageDisc2:'Links to music and social media',
         git: <a href='https://github.com/Mattemcbee/DisposedKingsWebpage'>
             <i className='fa fa-github-square fa-2x' style={{ color: 'black' }} /></a>,
-        website: <a className='unstyleLink' style={{color:'#fefae0'}} href='https://github.com/Mattemcbee/DisposedKingsWebpage'>
+        website: <a className='unstyleLink' style={{color:'#fefae0'}} href='https://disposedkings.netlify.app/'>
         Visit Website</a>
 
     },
     {
         id: 1,
-        name: 'React',
-        disc: 'A cooking website to help discover meals you can make using ingredients in your home',
+        name: 'Get In My Pantry',
+        disc: 'A cooking website to help discover meals you can make using ingredients in your home.',
         image: recipe,
-        // imageDisc:'recipe',
+        imageDisc:'Landing page to choose the ingredients in your pantry',
         image2: recipe2,
         technologies:'React, CSS, JavaScript',
-        // imageDisc2:'recipe2'
+        imageDisc2:'More information on the recipe you choose',
         git: <a href='https://github.com/Mattemcbee/cooking-website'>
             <i className='fa fa-github-square fa-2x' style={{ color: 'black' }} /></a>
     },
     {
         id: 2,
-        name: 'React',
-        technologies:'HTML, CSS, JavaScript',
+        name: 'Mock Campsite Reservation Website',
+        technologies:'React, CSS, JavaScript',
 
         disc: 'A webpage promoting a campsite and allowing resevations of campsites',
         image: reactcamp,
-        // imageDisc:'reactcamp',
+        imageDisc:'A mock campsite reservation website displaying information about various campsites',
         image2: reactcamp2,
-        // imageDisc2:'reactcamp2'
+        imageDisc2:'A login form and an feedback form',
         git: <a href='https://github.com/Mattemcbee/cooking-website'>
             <i className='fa fa-github-square fa-2x' style={{ color: 'black' }} /></a>
     },
     {
         id: 3,
-        name: 'React Native',
-        technologies:'HTML, CSS, JavaScript',
+        name: 'Get In My Pantry App',
+        technologies:'React Native, CSS, JavaScript',
 
         disc: 'An app used to help discover meals you can make using ingredients in your home',
         image: recapp3,
-        // imageDisc:'recapp3',
+        imageDisc:'The landing page where you choose ingredients you have in your pantry ',
         image2: recapp2,
-        // imageDisc2:'ramen'
+        imageDisc2:'A favorite page',
         git: <a href='https://github.com/Mattemcbee/recipe-app'>
             <i className='fa fa-github-square fa-2x' style={{ color: 'black' }} /></a>
     },
     {
         id: 4,
-        name: 'React Native',
-        technologies:'HTML, CSS, JavaScript',
+        name: 'Campsite Reservation App',
+        technologies:'React Native, CSS, JavaScript',
 
-        disc: 'An app used to help discover and reserve campsites',
+        disc: 'A mock campsite reservation website displaying information about various campsites',
         image: campapp4,
-        // imageDisc:'recapp3',
+        imageDisc:'A comment section',
         image2: campapp1,
-        // imageDisc2:'ramen'
+        // imageDisc2:'ramen',
         git: <a href='https://github.com/Mattemcbee/recipe-app'>
             <i className='fa fa-github-square fa-2x' style={{ color: 'black' }} /></a>
     },
     {
         id: 5,
-        name: 'NodeJS',
-        technologies:'HTML, CSS, JavaScript',
+        name: 'Campsite Database',
+        technologies:'NodeJS',
 
-        disc: 'A database that can be used to store and share information',
+        disc: 'A mock database that can be used to store and add information about campsites',
         image: database3,
-        // imageDisc:'database1',
+        imageDisc:'User input and creation',
         image2: database2,
-        // imageDisc2:'database2'
+        imageDisc2:'Add campsites and remove them',
         git: <a href='https://github.com/Mattemcbee/nucampServer'>
             <i className='fa fa-github-square fa-2x' style={{ color: 'black' }} /></a>
     }

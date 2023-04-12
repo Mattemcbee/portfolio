@@ -19,7 +19,8 @@ function App() {
         <div className='App'>
             {/* <Header /> */}
             <Routes>
-                <Route path='/HomePage' element={<HomePage />} />
+                <Route path="/HomePage" element={<HomePage />} />
+                
                 <Route path='/' element={<LandingPage />} />
 
                 <Route path='addrecipe' element={<AddRecipePage />} />
