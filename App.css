@@ -1,0 +1,353 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.card-body>.card-title {
+    font-family: 'Helvetica';
+
+
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.cardStyle {
+    background-color: #EAC7C7;
+    /* outline: 1px solid black; */
+    text-decoration: none;
+    color: black;
+    /* margin-left: 0; */
+}
+.cardStyleProject {
+    background-color: black;
+    /* outline: 1px solid black; */
+    text-decoration: none;
+    color: #EAC7C7;
+    /* margin-left: 0; */
+}
+
+
+.hoverEff:hover {
+    opacity: 80%;
+}
+
+
+.cardStyleDark {
+    background-color: black;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #EAC7C7;
+    border-radius: 0 0 10px 10px;
+    /* margin-left: 0; */
+}
+.aboutBorder {
+    /* background-color: black; */
+    text-decoration: none;
+    color: #EAC7C7;
+    border: 3px solid #EAC7C7;
+    border-radius: 10px;
+    margin: 20px;
+    width:20%;
+    /* margin-left: 0; */
+}
+
+.cardStyleTitle {
+
+    border-radius: 0 0 10px 10px;
+    /* margin-left: 0; */
+}
+
+.iconColor {
+    color: #fefae0;
+}
+
+.cardBottomSpace {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+.discBack {
+    background-color:black;
+    opacity:80%;
+    width:auto;
+}
+
+.cardRecipeStyle {
+    background-color: #fefae0;
+    /* text-decoration: none; */
+    color: black;
+
+}
+
+.selectorStyle {
+    background-color: #DDA15E;
+    text-decoration: none;
+    color: #fefae0;
+    border-radius: 12px;
+    /* width:1vw; */
+
+}
+
+.formTextStyle {
+
+    color: #fefae0;
+    vertical-align: middle;
+
+
+}
+
+.recipeTop {
+    background-color: #606c38;
+}
+
+.recipeButtonStyle {
+    color: #606c38;
+    background-color: #606c38;
+
+}
+
+.recipeFormStyle {
+    border: 2px solid #fefae0;
+    background-color: #a1cebe;
+    border-radius: 4px;
+    width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+
+    color: #fefae0;
+
+
+}
+
+.serviceCard {
+    border: 2px solid #fefae0;
+    /* background-color: #a1cebe; */
+    border-radius: 4px;
+    width: 100%;
+    max-height: 100%;
+    /* margin: 0; */
+    padding: 0;
+    vertical-align: middle;
+
+    /* color: #fefae0; */
+
+
+}
+
+h2 {
+    font-size: 22vw;
+}
+
+h4 {
+    font-size: 2vw;
+}
+
+.mac {
+    color: black;
+    font-size: 2vw;
+    /* vertical-align: center; */
+    margin: auto;
+}
+
+.NoDecorationCardText {
+    text-decoration: none;
+    color: #EAC7C7;
+
+}
+
+.unstyleLink {
+    color: #fefae0;
+    text-decoration: none;
+}
+
+.inline {
+    display: inline-block;
+}
+
+h1 {
+    color: #fefae0;
+    text-align: center;
+    margin: 0;
+    font-size: 200px;
+    width: 100%;
+    left: 0;
+    right: 0;
+
+}
+
+.center {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.center2 {
+    text-align: center;
+    /* display: block; */
+    /* justify-content: center; */
+    vertical-align: center;
+    margin: 0;
+}
+
+.button1 {
+    background-color: none;
+    color: black;
+    border: 2px solid black;
+}
+
+.button2 {
+    background-color: black;
+    color: #EAC7C7;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 2px 8px 2px 8px ;
+}
+
+
+
+.fontBasic {
+    color: #EAC7C7;
+    font-size: 10vh;
+    overflow: hidden;
+
+}
+
+.sidenav {
+    height: 80%;
+    width: 5px;
+    color:#EAC7C7;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #232323; */
+    transition: .5s ease;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 180px;
+    /* margin-left:100px;
+
+    margin-right:100px; */
+    overflow: hidden;
+    margin-bottom: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fontBasic2 {
+    color: #EAC7C7;
+    font-size: 6vh;
+    overflow: hidden;
+white-space: nowrap;
+}
+
+.fontBasic3 {
+    color: #EAC7C7;
+    font-size: 4vh;
+}
+
+.modalBack {
+    /* background-color: #FFE8D6; */
+    background-color: #EAC7C7;
+
+}
+
+.homeBackground {
+    /* background-color: #FFE8D6; */
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.homeBackground2 {
+    /* background-color: red; */
+    background-image: url("../src/app/assets/img/mountain1.jpg");
+    height: 100px;
+}
+.homeBackground3 {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.homeBackground4 {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipeBackground {
+    background-color: #fefae0;
+}
+
+.card-img-overlay .card-title {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.site-footer {
+    background-image: linear-gradient(#cec8ff, white);
+    padding: 20px 0;
+    margin-top: 2rem;
+}
+
+.navbar-brand {
+    max-width: 400px;
+    margin-right: 2rem;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+    margin-right: 2rem;
+    max-width: 4rem;
+}
+
+.navbar-dark {
+    background-color: #FFE8D6;
+    margin-bottom: 0;
+    min-height: 8rem;
+}
+
+
+.page-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: 300ms ease-out;
+}
+
+.page-exit {
+    opacity: 1;
+}
+
+.page-exit-active {
+    opacity: 0;
+    transition: 300ms ease-in;
+}
