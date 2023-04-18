@@ -13,12 +13,14 @@ import Landing from "../features/meals/Landing";
 const LandingPage = () => {
 
   return (
-    <Container fluid className="homeBackground">
+    <Container fluid className="  homeBackground">
       {/* <Header /> */}
     {/* <SideNav/> */}
       <Row>
-        <Col sm="12">
-          <Container className="">
+        <Col xs='12' >
+          <Container className=""
+          // style={{width:'100%'}}
+          >
             <Landing />
           </Container>
         </Col>

@@ -64,22 +64,37 @@ const Landing = () => {
 
 
 
-    <Row className="m-auto">
+    <Row className="m-auto fluid">
       {/* <h2 className='cardStyle'>About Me</h2> */}
-      <Container className="m-auto homeBackground4" >
+      <Container className="m-auto homeBackground4 fluid" >
 
         <Row className='m-auto text-center'>
 
           <Col sm="12" >
-            <animated.div style={animatedStyle} className="m-auto text-start">
+            <Col className='d-none d-sm-block'>
 
-              <h2 className='fontBasic2'>Hello! My name is </h2>
-              <h2 className='fontBasic ' style={{ fontFamily: '', color:'white' }}> Matt McBee</h2>
-              <h2 className='fontBasic2'>I am a fullstack developer </h2>
+              <animated.div style={animatedStyle} className="m-auto text-start">
 
-              {/* <img class="center"
+                <h2 className='fontBasic4'>Hello! My name is </h2>
+                <h2 className='fontBasic5 ' style={{ fontFamily: '', color: 'white' }}> Matt McBee</h2>
+                <h2 className='fontBasic4'>I am a fullstack developer </h2>
+
+                {/* <img class="center"
                 style={{ borderRadius: "50% 50% 0 0", backgroundColor: "red", width: '30%', justifyContent: 'center' }} top src={head} /> */}
-            </animated.div>
+              </animated.div>
+            </Col>
+            <Col className=' d-sm-none'>
+
+              <animated.div style={animatedStyle} className="m-auto text-start">
+
+                <h2 className='fontBasic2'>Hello! My name is </h2>
+                <h2 className='fontBasic ' style={{ fontFamily: '', color: 'white' }}> Matt McBee</h2>
+                <h2 className='fontBasic2'>I am a fullstack developer </h2>
+
+                {/* <img class="center"
+                style={{ borderRadius: "50% 50% 0 0", backgroundColor: "red", width: '30%', justifyContent: 'center' }} top src={head} /> */}
+              </animated.div>
+            </Col>
             <animated.div style={animatedStyle2}>
 
 
@@ -88,22 +103,22 @@ const Landing = () => {
                 <Col className="">
                   <Button className="hoverEff" style={{
                     borderRadius: "10px", borderColor: '#EAC7C7',
-                    backgroundColor: "black", color: '#EAC7C7', 
-                     margin: '5px'
+                    backgroundColor: "black", color: '#EAC7C7',
+                    margin: '5px'
                   }}
-                  href="/HomePage"
-                    >
+                    href="/HomePage"
+                  >
                     View Porfolio
                   </Button>
-                  
+
                 </Col>
 
-                
+
               </Row>
             </animated.div>
 
             {/* <h4 className='fontBasic3'>I am a fullstack developer based in Richmond, VA, and I am passionate and dedicated to my work. With 3 years of professional work experince and 1 year of code experince I have aquired the skills necessary to build great and premium websites.</h4> */}
-            
+
 
           </Col>
         </Row>

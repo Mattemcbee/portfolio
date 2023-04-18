@@ -29,7 +29,9 @@ const HomePage = () => {
       <Row>
         
         <Col sm="12">
-          <Container className="" id="about">
+          <Container className="" 
+          // id="about"
+          >
             <AboutMe />
           </Container>
         </Col>

@@ -37,7 +37,10 @@ h3,
 .hoverEff:hover {
     opacity: 80%;
 }
-
+.hoverEff2:hover {
+    opacity: 80%;
+    color: #EAC7C7;
+}
 
 .cardStyleDark {
     background-color: black;
@@ -168,6 +171,11 @@ h4 {
     text-decoration: none;
 }
 
+.unstyleLink2 {
+    color: #EAC7C7;
+    text-decoration: none;
+}
+
 .inline {
     display: inline-block;
 }
@@ -217,7 +225,7 @@ h1 {
 
 .fontBasic {
     color: #EAC7C7;
-    font-size: 10vh;
+    font-size: 10vw;
     overflow: hidden;
 
 }
@@ -248,7 +256,7 @@ h1 {
 
 .fontBasic2 {
     color: #EAC7C7;
-    font-size: 6vh;
+    font-size: 6vw;
     overflow: hidden;
 white-space: nowrap;
 }
@@ -257,10 +265,32 @@ white-space: nowrap;
     color: #EAC7C7;
     font-size: 4vh;
 }
+.fontBasic4 {
+    color: #EAC7C7;
+    font-size: 3vw;
+    overflow: hidden;
+
+}
+.fontBasic5 {
+    color: #EAC7C7;
+    font-size: 5vw;
+    overflow: hidden;
+
+}
 
 .modalBack {
     /* background-color: #FFE8D6; */
     background-color: #EAC7C7;
+
+}
+.modalBackRound {
+    /* background-color: #FFE8D6; */
+    border-radius: 10px;
+
+}
+.modalBackRoundBottom {
+    /* background-color: #FFE8D6; */
+    border-radius: 0 0 10px 10px;
 
 }
 

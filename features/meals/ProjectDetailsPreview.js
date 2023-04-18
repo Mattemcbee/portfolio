@@ -49,9 +49,11 @@ const ProjectDetailsPreview= ({meal}) => {
                             alt="Image One"
                             
                         />
-                        <Carousel.Caption>
+                        <Col className='d-none d-md-block'>
+                        <Carousel.Caption >
                             <p className='discBack'>{imageDisc}</p>
                         </Carousel.Caption>
+                        </Col>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -59,9 +61,11 @@ const ProjectDetailsPreview= ({meal}) => {
                             src={image2}
                             alt="Image Two"
                         />
+                        <Col className='d-none d-md-block'>
                         <Carousel.Caption>
                             <p className='discBack'>{imageDisc2}</p>
                         </Carousel.Caption>
+                        </Col>
                     </Carousel.Item>
                 </Carousel>            </Card>
                 </animated.div>

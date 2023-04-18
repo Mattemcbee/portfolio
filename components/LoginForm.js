@@ -10,7 +10,7 @@ const LoginForm = () => {
             {/* <span style={{backgroundColor:'none', color:'black', border:'2px rounded solid black', borderRadius: '10px', textDecoration:'none', maxHeight:'100%' }}  outline onClick={() => setModalOpen(true)} ><i className="fa fa-sign-in fa-lg"  /> Contact Me </span> */}
             <Button style={{ backgroundColor: '#FFE8D6', border: '2px solid black', borderRadius:'10px' }} className='fontBasic'
                 onClick={() => setModalOpen(true)}>Contact <i className="fa fa-sign-in fa-lg" /></Button>
-            <Modal isOpen={modalOpen}>
+            <Modal isOpen={modalOpen} style={{width:'100px'}}>
                 <ModalHeader toggle={(() => setModalOpen(false))} >
                     Let's Talk
                 </ModalHeader>
@@ -24,7 +24,8 @@ const LoginForm = () => {
                                 </Label>
                                 <Label>
                                     <a role='link' className='btn btn-link NoDecorationCardText unstyleLink inline' href='mailto:matthew.mcbee7@gmail.com'>
-                                        <i className='fa fa-envelope-o NoDecorationCardText unstyleLink' />Matthew.Mcbee7@gmail.com
+                                        {/* <i className='fa fa-envelope-o NoDecorationCardText unstyleLink' /> */}
+                                        Matthew.Mcbee7@gmail.com
                                     </a>
                                 </Label>
                             </FormGroup>

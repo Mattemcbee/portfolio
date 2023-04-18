@@ -39,9 +39,9 @@ const Header = () => {
       </NavbarBrand>
     
       {/* <LoginForm /> */}
-      <HashLink className="unstyleLink" smooth to="/HomePage#about">
+      {/* <HashLink className="unstyleLink" smooth to="/HomePage#about">
                 About
-            </HashLink>
+            </HashLink> */}
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} className="ms-5 float-start"
         style={{
           color: '#EAC7C7', backgroundColor: 'black', borderRadius: "10px",
@@ -59,9 +59,9 @@ const Header = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link iconColor hoverEff" style={{ color: '#EAC7C7' }} to="/HomePage#about" >
+            <NavLink className="nav-link iconColor " style={{ color: '#EAC7C7' }} to="/HomePage#about" >
               {/* <i className="fa fa-user fa-lg fontBasic" />  */}
-              <HashLink className="unstyled" smooth to="/HomePage#about">
+              <HashLink className="unstyled unstyleLink2 hoverEff2" smooth to="/HomePage#about">
                 About
             </HashLink>
             </NavLink>
@@ -71,30 +71,31 @@ const Header = () => {
               onClick={() => setModalOpen(true)}>
               {/* <i className="fa fa-phone fa-lg fontBasic"  />  */}
               Contact</span>
-            <Modal className='modalBack' isOpen={modalOpen} >
+            <Modal className='modalBack modalBackRound' style={{}} isOpen={modalOpen} >
               <ModalHeader toggle={(() => setModalOpen(false))} className='modalBack' >
                 Let's Talk
               </ModalHeader>
-              <ModalBody className='modalBack' style={{ backgroundColor: '#EAC7C7' }}>
+              <ModalBody className='modalBackRoundBottom' style={{ backgroundColor: '#EAC7C7' }}>
                 <Formik >
                   <Form>
 
-                    <FormGroup>
+                    <FormGroup >
                       <Label>
                         Email:
                       </Label>
                       <Label>
-                        <a role='link' className='btn btn-link NoDecorationCardText unstyleLink inline' href='mailto:matthew.mcbee7@gmail.com'>
-                          <i className='fa fa-envelope-o NoDecorationCardText unstyleLink' />Matthew.Mcbee7@gmail.com
+                        <a role='link' className='btn btn-link NoDecorationCardText unstyleLink inline ' href='mailto:matthew.mcbee7@gmail.com'>
+                          {/* <i className='fa fa-envelope-o NoDecorationCardText unstyleLink' /> */}
+                          Matthew.Mcbee7@gmail.com
                         </a>
                       </Label>
                     </FormGroup>
-                    <FormGroup>
+                    <FormGroup > 
                       <Label>
                         Phone Number:
                       </Label>
                       <Label>
-                        <a role='link' className='btn btn-link NoDecorationCardText unstyleLink inline' href='tel:+15403306288'>
+                        <a role='link' className='btn btn-link NoDecorationCardText unstyleLink inline ' href='tel:+15403306288'>
                           <i className='fa fa-phone-o NoDecorationCardText unstyleLink' />540-330-6288
                         </a>
                       </Label>
