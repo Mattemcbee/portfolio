@@ -13,13 +13,16 @@ const ProjectCard = ({ meal }) => {
             >
                 <CardTitle className='cardStyle m-0'>{name}</CardTitle>
                 <CardBody className='cardStyleDark p-50 fluid '>
+                    
                     <Row className='center fluid mx-auto' style={{height:'100%'}}>
                             {/* <CardImg  style={{width:'100%', borderRadius:'8px'}} src={image} /> */}
                             <ProjectDetailsPreview meal={meal} style={{height:'10%'}}/>
                     </Row>
+                    <br/>
                     <Row>
-                            <CardText className='NoDecorationCardText m-0' > {disc} </CardText>
+                            <CardText className='NoDecorationCardText m-0' > {disc}  </CardText>
                     </Row>
+                    <br/>
                     <Row>
                             <CardText className='NoDecorationCardText m-0'> Technologies: {technologies} </CardText>
                     </Row>

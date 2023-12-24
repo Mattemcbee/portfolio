@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const ProjectListing = ({ meal }) => {
 
-    const { image, image2, name, git, time, level, recipeOut, calories, website, ingredients, disc } = meal;
+    const { image, image2, name, git, time, level, recipeOut, calories, website, ingredients, disc, skill } = meal;
 
     if(website){
     return (
@@ -19,9 +19,15 @@ const ProjectListing = ({ meal }) => {
                 </CardBody>
                 <CardBody style={{ color: 'black', borderRadius: '10px' }} className='cardRecipeStyle text-center'>
                     {disc}
+                    <br/>
+                    
+                </CardBody>
+                <CardBody style={{ color: 'black', borderRadius: '10px' }} className='cardRecipeStyle text-center'>
+                    
+                    Skills: {skill}
                 </CardBody>
 
-                <CardBody className='cardRecipeStyle text-center'>
+                <CardBody className='cardRecipeStyle text-center' style={{borderRadius:'10px'}} >
                     <Row className='cardBottomSpace'>
                         <Col xs='6' className='center'>
                             <p className='hoverEff center '>{git}</p>
@@ -48,7 +54,7 @@ const ProjectListing = ({ meal }) => {
                     {disc}
                 </CardBody>
 
-                <CardBody className='cardRecipeStyle text-center'>
+                <CardBody className='cardRecipeStyle text-center' style={{borderRadius:'10px'}}>
                     <Row className='cardBottomSpace'>
                         <Col xs='12' className='center'>
                             <p className='hoverEff center '>{git}</p>

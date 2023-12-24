@@ -75,60 +75,20 @@ const AboutMe = () => {
           <Col sm="10" className="m-auto">
             <animated.div style={animatedStyle2}>
 
-              {/* <h2 className='fontBasic2'>My name is </h2> */}
-              <h1 className=' cardStyleProject' style={{ fontFamily: '' }}> About Me</h1>
+              {/* <h1 className=' cardStyleProject' style={{ fontFamily: '' }}> About Me</h1> */}
               <Row>
                 <Col xs='12' md='4'>
-                  <img class="center"
-                    style={{ borderRadius: "50% 50% 0 0", backgroundColor: "red", width: '80%', justifyContent: 'center' }} top src={head} />
-                  {/* <Col xs='12' className=' d-md-block '>
-                    <BottomBar />
-                  </Col> */}
-                  {/* <Row> */}
-                  {/* <Col className=" d-md-block">
-                  <Button className="hoverEff" style={{
-                    borderRadius: "10px", borderColor: '#EAC7C7',
-                    backgroundColor: "black", color: '#EAC7C7',
-
-                      margin: '5px', padding: '10px 20px'
-                  }}
-                    href={samplePDF1} target="_blank"
-                    rel="noreferrer">
-                    CV
-                  </Button>
-                  <Button className="hoverEff" style={{
-                    borderRadius: "10px",
-                    borderColor: '#EAC7C7', backgroundColor: "#EAC7C7", color: 'black',
-                    margin: '5px', padding: '10px 20px'
-
-                  }} onClick={() => setModalOpen(true)}>
-                    Let's Talk
-                  </Button>
-                </Col> */}
-
-                  {/* <Col className="d-md-none">
-                      <Button className="hoverEff " style={{
-                        borderRadius: "10px", borderColor: '#EAC7C7',
-                        backgroundColor: "black", color: '#EAC7C7', textDecoration: 'none',
-                        width: '100px', height: '50px', justifyContent: 'center', margin: '5px'
-                      }}
-                        href={samplePDF1} target="_blank"
-                        rel="noreferrer">
-                        <p className="center " style={{ fontSize: '4vw' }}>CV</p>
-                      </Button>
-                      <Button className="hoverEff" style={{
-                        borderRadius: "10px", borderColor: '#EAC7C7',
-                        backgroundColor: "#EAC7C7", color: 'black', textDecoration: 'none', width: '100px',
-                        height: '50px', justifyContent: 'center', margin: '5px'
-                      }} onClick={() => setModalOpen(true)}>
-                        <p className="center" style={{ fontSize: '4vw' }}>Let's Talk</p>
-                      </Button>
-                    </Col>
-                  </Row> */}
+                  <img class="center "
+                    style={{ backgroundColor:'red', borderRadius: "50% 50% 0 0", backgroundColor: "red", width: '80%', justifyContent: 'center', alignContent:'center' }} top src={head} />
+                  
 
                 </Col>
                 <Col xs='12' md='8'>
-                  <h4 className='fontBasic3 center'>I am an aspiring fullstack developer based in Richmond, VA, and I am passionate and dedicated to my work. With 3 years of professional work experince and 1 year of code experince I have aquired the skills necessary to build great and premium websites.</h4>
+                <h1 className=' cardStyleProject text-start' style={{ fontFamily: '' }}> About Me</h1>
+
+                  <h4 className='fontBasic3 text-start'>I am an aspiring fullstack developer based in Richmond, VA. My passion for web development started when I began creating websites for local bands, and following a full-stack development course, I am endeavoring to turn my passion into my career.
+
+<br/> With 3 years of professional work experince and 1 year of web development experience I believe I would make a great addition to a team looking for a creative mind to join their front-end or back-end initiatives.</h4>
 
                 </Col>
                   <BottomBar />

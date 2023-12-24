@@ -37,8 +37,8 @@ const ProjectDetailPage = () => {
       setToggle(true);
     }, []);
     return(
-        <Container fluid  className='homeBackground3'>
-            <Header />
+        <Container fluid  className='homeBackground3'style={{paddingTop:'0'}} >
+            <Header style={{marginTop:'0'}} />
             <Row>
                 <h1>{meal.name}</h1>
                 <ProjectDetails meal={meal} />

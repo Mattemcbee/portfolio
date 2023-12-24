@@ -47,11 +47,12 @@ const ProjectDetailsPreview= ({meal}) => {
                             className="d-block w-100"
                             src={image}
                             alt="Image One"
+                            style={{borderRadius:'10px'}}
                             
                         />
                         <Col className='d-none d-md-block'>
                         <Carousel.Caption >
-                            <p className='discBack'>{imageDisc}</p>
+                            {/* <p className='discBack'>{imageDisc}</p> */}
                         </Carousel.Caption>
                         </Col>
                     </Carousel.Item>
@@ -60,10 +61,11 @@ const ProjectDetailsPreview= ({meal}) => {
                             className="d-block w-100"
                             src={image2}
                             alt="Image Two"
+                            style={{borderRadius:'10px'}}
                         />
                         <Col className='d-none d-md-block'>
                         <Carousel.Caption>
-                            <p className='discBack'>{imageDisc2}</p>
+                            {/* <p className='discBack'>{imageDisc2}</p> */}
                         </Carousel.Caption>
                         </Col>
                     </Carousel.Item>

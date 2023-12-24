@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Col, Row, Button } from 'reactstrap';
-import samplePDF1 from '../../app/assets/MattMcBeeCV.pdf'
+import samplePDF1 from '../../app/assets/MatthewMcBee31JUL2023.pdf'
 import { useState } from "react";
 import {
     Navbar,
@@ -35,7 +35,7 @@ const BottomBar = (props) => {
                     <Col className="">
                         <Button className="hoverEff" style={{
                             borderRadius: "10px", borderColor: '#EAC7C7',
-                            backgroundColor: "black", color: '#EAC7C7',
+                            backgroundColor: "#111111", color: '#EAC7C7',
 
                             margin: '5px', padding: '15px 25px'
                         }}

@@ -6,8 +6,9 @@ const ServiceCard = ({ meal }) => {
 
     return (
         <Card className='serviceCard' style={{
-            // height: '150px',
-             marginBottom: '20px',
+            // height: '100%',
+            minHeight: '220px',
+            marginBottom: '20px',
             borderRadius: '10px', border: '20px', borderColor: '#EAC7C7'
         }} >
 

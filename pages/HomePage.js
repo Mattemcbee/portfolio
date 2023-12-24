@@ -14,22 +14,24 @@ import { HashLink } from 'react-router-hash-link';
 const HomePage = () => {
 
   return (
-    <Container fluid className="homeBackground">
+    <Container fluid 
+    className="homeBackground"
+    >
       <Header />
-    <SideNav/>
-    <Row>
-            <Col xs="10" className="mx-auto">
-            <h1 className="cardStyleProject mx-0">Projects</h1>
-          </Col>
-          </Row>
-          
-          <Col xs={{ size: 9}} className='mx-auto'>
-            <ProjectList />
-          </Col>
+      <SideNav />
       <Row>
-        
+        <Col xs="10" className="mx-auto">
+          <h1 className="cardStyleProject mx-0">Projects</h1>
+        </Col>
+      </Row>
+
+      <Col xs={{ size: 9 }} className='mx-auto'>
+        <ProjectList />
+      </Col>
+      <Row>
+
         <Col sm="12">
-          <Container className="" 
+          <Container className=""
           // id="about"
           >
             <AboutMe />
@@ -39,7 +41,7 @@ const HomePage = () => {
           sm="10"
           className=" m-auto"
         >
-          <h1 className="cardStyleProject mx-0">My Skills</h1>
+          <h1 className="cardStyleProject mx-0 ">My Skills</h1>
           <ServiceList />
 
         </Col>
@@ -47,7 +49,8 @@ const HomePage = () => {
           xs="12"
           className=" text-center"
         >
-  
+          <h1></h1>
+
         </Col>
       </Row>
     </Container>

@@ -77,7 +77,7 @@ const Landing = () => {
 
                 <h2 className='fontBasic4'>Hello! My name is </h2>
                 <h2 className='fontBasic5 ' style={{ fontFamily: '', color: 'white' }}> Matt McBee</h2>
-                <h2 className='fontBasic4'>I am a fullstack developer </h2>
+                <h2 className='fontBasic4'>I am an aspiring fullstack developer </h2>
 
                 {/* <img class="center"
                 style={{ borderRadius: "50% 50% 0 0", backgroundColor: "red", width: '30%', justifyContent: 'center' }} top src={head} /> */}
@@ -89,7 +89,7 @@ const Landing = () => {
 
                 <h2 className='fontBasic2'>Hello! My name is </h2>
                 <h2 className='fontBasic ' style={{ fontFamily: '', color: 'white' }}> Matt McBee</h2>
-                <h2 className='fontBasic2'>I am a fullstack developer </h2>
+                <h2 className='fontBasic2'>I am an aspiring fullstack developer </h2>
 
                 {/* <img class="center"
                 style={{ borderRadius: "50% 50% 0 0", backgroundColor: "red", width: '30%', justifyContent: 'center' }} top src={head} /> */}
@@ -103,7 +103,7 @@ const Landing = () => {
                 <Col className="">
                   <Button className="hoverEff" style={{
                     borderRadius: "10px", borderColor: '#EAC7C7',
-                    backgroundColor: "black", color: '#EAC7C7',
+                    backgroundColor: "#111111", color: '#EAC7C7',
                     margin: '5px'
                   }}
                     href="/HomePage"

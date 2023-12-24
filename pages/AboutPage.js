@@ -5,7 +5,7 @@ import ProjectCard from "../features/meals/ProjectsCard";
 import { selectAllRecipe } from "../features/recipes/AddRecipeSlice";
 import { INGREDIENTS } from "../app/shared/INGREDIENTLIST";
 import { PROJECTS } from "../app/shared/PROJECTS";
-import samplePDF1 from "../app/assets/MattMcBeeCV.pdf";
+import samplePDF1 from "../app/assets/MattMcBeeCV3.pdf";
 import Header from "../components/Header";
 import { useState } from "react";
 import { useSpring, animated } from 'react-spring'

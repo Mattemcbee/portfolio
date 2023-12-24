@@ -31,7 +31,7 @@ const Header = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <Navbar expand="lg" sticky="top" style={{backgroundColor:'black'}}>
+    <Navbar expand="lg" sticky="top" style={{backgroundColor:'#111111'}}>
       <NavbarBrand className="ms-5 float-start" href="/HomePage" >
         <img src={backDrop} alt="nucamp logo" className="float-start" style={{ width: '50%' }} />
         {/* <h1 className="mt-1 hoverEff"style={{color:'#EAC7C7', 
@@ -44,7 +44,7 @@ const Header = () => {
             </HashLink> */}
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} className="ms-5 float-start"
         style={{
-          color: '#EAC7C7', backgroundColor: 'black', borderRadius: "10px",
+          color: '#EAC7C7', backgroundColor: '#111111', borderRadius: "10px",
           borderColor: '#EAC7C7', border: '5px'
         }} ><i className="fa fa-bars fa-md dark " />
       </NavbarToggler>
