@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Col, Row, Button } from 'reactstrap';
-import samplePDF1 from '../../app/assets/MatthewMcBee31JUL2023.pdf'
+import samplePDF1 from '../../app/assets/MathewMcBeeCM.pdf'
 import { useState } from "react";
 import {
     Navbar,

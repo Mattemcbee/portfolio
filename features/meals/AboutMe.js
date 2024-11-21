@@ -1,7 +1,7 @@
 import { Col, Container, Row, Button, Image, Card, CardImg, CardText, CardBody } from "reactstrap";
 import bagel from '../../../src/app/assets/img/bagel.png';
 import head from '../../../src/app/assets/img/head.jpg';
-import samplePDF1 from '../../app/assets/MattMcBeeCV.pdf'
+import samplePDF1 from '../../app/assets/MathewMcBeeCM.pdf'
 import { useState } from "react";
 import { useSpring, animated } from 'react-spring'
 import { useEffect } from 'react';
@@ -86,7 +86,7 @@ const AboutMe = () => {
                 <Col xs='12' md='8'>
                 <h1 className=' cardStyleProject text-start' style={{ fontFamily: '' }}> About Me</h1>
 
-                  <h4 className='fontBasic3 text-start'>I am an aspiring fullstack developer based in Richmond, VA. My passion for web development started when I began creating websites for local bands, and following a full-stack development course, I am endeavoring to turn my passion into my career.
+                  <h4 className='fontBasic3 text-start'>I am a fullstack developer based in Richmond, VA. My passion for web development started when I began creating websites for local bands, and following a full-stack development course, I am endeavoring to turn my passion into my career.
 
 <br/> With 3 years of professional work experince and 1 year of web development experience I believe I would make a great addition to a team looking for a creative mind to join their front-end or back-end initiatives.</h4>
 
